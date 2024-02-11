@@ -34,7 +34,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
 }
 
 .nav-links {
@@ -47,7 +47,6 @@ a {
     color: black;
     text-decoration: none;
     text-decoration-color: white;
-
 }
 
 a:hover {
@@ -325,7 +324,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+#skills {
     position: relative;
 }
 
@@ -360,6 +359,7 @@ article {
 
 article .icon {
     cursor: default;
+    margin-top: -0.1rem;
 }
 
 /* PROJECTS SECTION */
@@ -412,13 +412,14 @@ article .icon {
     background: (250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
+    gap: 0.5rem;
 }
 
 .contact-info-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 0.1rem;
     margin: 1rem;
 }
 
